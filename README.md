@@ -70,13 +70,13 @@ Run the desired variant from your terminal:
 
 ```bash
 # Variant 1: 0.5 thresholds for base models (meta thr from OOF)
-python "WPBC variant 1.py"
+python "WPBC variant 1.ipynb"
 
 # Variant 2: thresholds for bases + meta from OOF (optimize ACC)
-python "WPBC variant 2.py"
+python "WPBC variant 2.ipynb"
 
 # Variant 3: like Variant 2, but PSO objective = ROC-AUC
-python "WPBC variant 3.py"
+python "WPBC variant 3.ipynb"
 ```
 
 ### Outputs
